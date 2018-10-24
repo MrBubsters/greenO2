@@ -39,3 +39,5 @@ epochs = 10
 batch_size = 128
 history = model.fit(x_train, y_train, batch_size=batch_size, epochs=epochs,
                     verbose=1, validation_data=(x_test, y_test))
+
+print(test)
